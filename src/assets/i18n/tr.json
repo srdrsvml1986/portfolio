@@ -1,0 +1,261 @@
+{
+  "Header.Item1": "Hakkımda",
+  "Header.Item2": "Deneyim",
+  "Header.Item3": "Projeler",
+  "Header.Item4": "İletişim",
+  "Header.cvBtn": "Özgeçmiş",
+  "Header.cvName": "tr.pdf",
+
+  "Banner.Pretitle": "Merhaba",
+  "Banner.Description": "Web'i daha iyi bir yer haline getirmek için sistemler, arayüzler, botlar ve teknolojik çözümler geliştirmede <span class='underline'>8 yıllık deneyime</span> sahibim. <span class='underline'>Angular</span> ve <span class='underline'>Laravel</span> ile temiz, yeniden kullanılabilir ve ölçeklenebilir kod yazmaya ve yeniden düzenlemeye, iyi uygulamaları ve geliştirme standartlarını uygulayarak özen gösteriyorum.",
+  "Banner.ActionBtn": "Merhaba",
+
+  "AboutMe.Title": "Hakkımda",
+  "AboutMe.Paragraphs": [
+    "<span class='underline'>8 yıllık deneyimimde</span> birçok rol üstlendim: <span class='underline'>Sistem Analisti</span>, <span class='underline'>Backend Geliştirici</span>, <span class='underline'>Frontend Geliştirici</span> ve <span class='underline'>Teknik Lider</span>. Problemleri çözmeye yardımcı olan yeni şeyler yaratmak için bilgimi paylaşmayı seviyorum.",
+    "Yeteneklerim arasında sistem iyileştirmeleri yapmak, siteleri optimize etmek, kalıpları standartlaştırmak ve üzerinde çalıştığım projeye değer katan fikirler önermek ve uygulamak da var.",
+    "Ayrıca kişisel kullanımım için, hobi veya fayda amaçlı programlar da yazıyorum.",
+    "Eğitim aldığım ve çalıştığım teknolojilerden bazıları şunlardır (bunlarla sınırlı değildir):"
+  ],
+
+  "Experience.Title": "Deneyim",
+  "Experience.Jobs": [
+    {
+      "Tab": "Global",
+      "Title": "Fullstack Geliştirici",
+      "Date": "Mayıs 2023",
+      "Description": [
+        "Teknik karar alma sürecinde lider",
+        "Şirket için teknik yetenek işe alımı",
+        "Teknoloji departmanı takım lideri",
+        "Kurs satışları için dahili süreç yönetimi platformunun oluşturulması ve bakımı",
+        "WordPress platformunu özelleştirmek için özel fonksiyonlar ve eklentiler programlama",
+        "Sürekli entegrasyon ve günlük yedeklemelerin uygulanması",
+        "Planlama ve raporlama toplantıları"
+      ]
+    },
+    {
+      "Tab": "Proyex",
+      "Title": "Fullstack Geliştirici",
+      "Date": "Aralık 2019 - Mayıs 2023",
+      "Description": [
+        "WordPress'te grafikli izleme platformunun oluşturulması ve bakımı",
+        "Gerekli izleme özelliklerini eklemek için şablonlarda ve eklentilerde fonksiyonel programlama",
+        "Sürekli entegrasyon ve günlük yedeklemelerin uygulanması",
+        "Angular, Angular Material, Laravel, MySQL, RxJS, Sass ile yapılmış, yapılandırılabilir grafikler, alarm sistemleri ve kullanıcı yönetimi ve genel yapılandırma ayarları içeren ikinci bir İzleme Platformunun oluşturulması ve bakımı",
+        "Planlama ve raporlama toplantıları"
+      ]
+    },
+    {
+      "Tab": "Serbest",
+      "Title": "Serbest Çalışan",
+      "Date": "Mayıs 2016 - Günümüz",
+      "Description": [
+        "Frontend ve backend'de sürekli iyileştirmeler uygulanması",
+        "Angular, Laravel, WordPress ile fonksiyonel, reaktif ve nesne yönelimli programlama paradigmaları kullanılarak platformlar oluşturulması",
+        "Veri yapıları ile süreç otomasyonu",
+        "SASS, Bootstrap, Materialize, Bulma vb. ile şablon tasarımları"
+      ]
+    },
+    {
+      "Tab": "Moebius",
+      "Title": "Fullstack Geliştirici",
+      "Date": "Temmuz 2017 - Ekim 2018",
+      "Description": [
+        "Angular, Laravel ve MySQL ile yapılmış turizm veri yönetimi platformunun geliştirilmesinde 4 kişilik ekibe liderlik",
+        "Azure'da CI/CD uygulaması. Uygulama yükleme sürelerinin yeniden düzenlenmesi ve optimize edilmesi",
+        "RxJS ile API isteklerinin kodlanması",
+        "Karmaşık reaktif formlarla modüller oluşturma",
+        "Hedefler ve planlar hakkında haftalık raporlar yazma"
+      ]
+    },
+    {
+      "Tab": "TechLatam",
+      "Title": "Frontend Geliştirici",
+      "Date": "Şubat 2016 - Mayıs 2017",
+      "Description": [
+        "ACF ile WordPress şablonları oluşturma, JavaScript/jQuery'de fonksiyonel programlama, SASS'ta stiller",
+        "Şablonlar için tasarım ve yükleme süresi iyileştirmelerinin entegrasyonu",
+        "Tasarım ekibiyle Avocode/Figma kullanarak etkili iletişim"
+      ]
+    },
+    {
+      "Tab": "CANTV",
+      "Title": "Sistem Analisti",
+      "Date": "Kasım 2015 - Aralık 2016",
+      "Description": [
+        "Angular ve ExpressJS ile yapılmış mevcut çalışan yönetimi platformuna yeni işlevler programlama",
+        "Eski kodun yeniden düzenlenmesi. Düzenli Angular güncellemeleri dahil her güncellemeyle her bağımlılığın uyumluluğunun sağlanması"
+      ]
+    },
+    {
+      "Tab": "IEP",
+      "Title": "İngilizce Öğretmeni",
+      "Date": "Ocak 2015 - Temmuz 2015",
+      "Description": [
+        "200'den fazla öğrenciye temel İngilizce öğretimi"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Projelerim",
+  "FeatureProjects.Label": "Öne Çıkan Proje",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Gisselle",
+      "Description": "<span class='underline'>Angular</span> ve <span class='underline'>Laravel</span> ile yapılmış, satış, tahsilat ve takip departmanlarını kapsayan, çok kapsamlı ve karmaşık çeşitli işlevlere sahip şirket içi yönetim web uygulaması. <span class='underline'>websockets</span>, <span class='underline'>zamanlamalar</span>, <span class='underline'>laravel jobs</span>, WordPress, Zadarma, LiveConnect vb. ile entegrasyonlarla çalışır.",
+      "imgs": [
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "Emelteciot",
+      "Description": "<span class='underline'>Angular</span> ve <span class='underline'>Laravel</span> ile yapılmış veri sorgulama için izleme uygulaması. <span class='underline'>chart.js</span> kütüphanesi uygulanmıştır.",
+      "imgs": [
+        "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
+        "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
+        "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
+        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
+        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "Vas Aviation",
+      "Description": "Uçaklar için yakıt tedarik taleplerini takip etme uygulaması. <span class='underline'>e-posta modülü</span>, <span class='underline'>gerçek zamanlı bildirimler</span>, <span class='underline'>veri içe aktarımı için CSV dosya işleme</span>, <span class='underline'>fiyat teklifleri</span> içerir. <span class='underline'>Angular</span> ve <span class='underline'>Laravel</span> ile geliştirilmiştir.",
+      "imgs": [
+        "assets/images/vasaviation/capture0.png",
+        "assets/images/vasaviation/capture1.png",
+        "assets/images/vasaviation/capture2.png",
+        "assets/images/vasaviation/capture3.png",
+        "assets/images/vasaviation/capture4.png",
+        "assets/images/vasaviation/capture5.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "GlobalJobs",
+      "Description": "WordPress ile geliştirilmiş e-öğrenme platformu. Sıfırdan geliştirilen eklentilerle tamamen özelleştirilmiş tasarım. Özelleştirilmiş ödeme modülü, sanal sınıf, kurs takip paneli bulunmaktadır.",
+      "imgs": [
+        "assets/images/globaljobs/capture1.png",
+        "assets/images/globaljobs/capture2.png",
+        "assets/images/globaljobs/capture3.png",
+        "assets/images/globaljobs/capture4.png",
+        "assets/images/globaljobs/capture5.png",
+        "assets/images/globaljobs/capture6.png"
+      ],
+      "Technologies": ["WordPress", "WordPress Codex", "PHP", "MySQL"]
+    },
+    {
+      "Title": "GlobalJobs",
+      "Description": "Teknoloji ürünleri için e-ticaret platformu. WordPress ile geliştirilmiş ve ürünler için kargo sistemi uygulanmıştır. Özelleştirilmiş programlama ile satış raporlaması bulunmaktadır.",
+      "imgs": [
+        "assets/images/mbelectronics/capture0.png",
+        "assets/images/mbelectronics/capture1.png",
+        "assets/images/mbelectronics/capture2.png"
+      ],
+      "Technologies": ["WordPress", "Elementor", "Woocommerce", "WordPress Codex", "PHP", "MySQL"]
+    },
+    {
+      "Title": "Agrourbana",
+      "Description": "Sıfırdan yapılmış, kimlik doğrulama modülü, <span class='underline'>yapılandırılabilir grafikler</span>, <span class='underline'>yapılandırılabilir alarmlar</span> ve <span class='underline'>kullanıcı yönetimi</span> içeren izleme uygulaması. Ayrıca parametre yapılandırması için karmaşık reaktif formlar için mantık içerir.",
+      "imgs": [
+        "assets/images/agrourbana/agrourbana1.png",
+        "assets/images/agrourbana/agrourbana2.png",
+        "assets/images/agrourbana/agrourbana3.png",
+        "assets/images/agrourbana/agrourbana4.png",
+        "assets/images/agrourbana/agrourbana5.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "Tu Super Plan",
+      "Description": "Gelişmiş arama motoruna sahip sağlık planları teklifi. Planlar kullanıcının yaşı, aylık geliri ve konumuna göre gösterilir. <span class='underline'>canlı sohbet</span>, <span class='underline'>iletişim formu</span>, <span class='underline'>WhatsApp ve e-posta üzerinden bildirim sistemi</span>, <span class='underline'>kimlik doğrulama</span> ve <span class='underline'>yönetici rolü üzerinden bilgi yönetimi</span> içerir.",
+      "imgs": [
+        "assets/images/tusuperplan/tusuperplan1.png",
+        "assets/images/tusuperplan/tusuperplan2.png",
+        "assets/images/tusuperplan/tusuperplan3.png",
+        "assets/images/tusuperplan/tusuperplan4.png",
+        "assets/images/tusuperplan/tusuperplan5.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "Proyexiot",
+      "Description": "Su kuyuları, römorkörler ve çeşitli tesisler için sıfırdan yapılmış, kimlik doğrulama modülü, <span class='underline'>yapılandırılabilir grafikler</span>, <span class='underline'>yapılandırılabilir alarmlar</span>, <span class='underline'>kullanıcı yönetimi</span> ve <span class='underline'>openlayers ile coğrafi konum</span> içeren veri izleme platformu. Ayrıca parametre yapılandırması için reaktif formlar için mantık içerir.",
+      "imgs": [
+        "assets/images/proyex/proyex1.png",
+        "assets/images/proyex/proyex2.png",
+        "assets/images/proyex/proyex3.png",
+        "assets/images/proyex/proyex4.png",
+        "assets/images/proyex/proyex5.png",
+        "assets/images/proyex/proyex6.png",
+        "assets/images/proyex/proyex7.png",
+        "assets/images/proyex/proyex8.png",
+        "assets/images/proyex/proyex9.png",
+        "assets/images/proyex/proyex10.png",
+        "assets/images/proyex/proyex11.png",
+        "assets/images/proyex/proyex12.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    }
+  ],
+
+  "OtherProjects.Title": "Diğer Projeler",
+  "OtherProjects.Projects": [
+    {
+      "Title": "El Oyunu",
+      "Description": "Genişletilmiş taş-kağıt-makas oyunu. Angular'da geliştirilen kişisel bir proje, makineye karşı rastgele oynuyorsunuz. Servisler, arayüzler ve bileşenlerin kullanımını içerir.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/srdrsvml1986/hands-game",
+      "demoLink": "https://projects.andresjosehr.com/hands-game",
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+    },
+    {
+      "Title": "Ülke Görüntüleyici",
+      "Description": "Ülkelerin listesini görüntüleyebileceğiniz, her ülkenin detaylarını görebileceğiniz, ada ve bölgeye göre filtreleyebileceğiniz bir ülke API'sini tüketen arayüz. Ayrıca karanlık ve açık temalar arasında geçiş yapabileceğiniz bir karanlık modu var.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/srdrsvml1986/countries-viewer",
+      "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+      "Technologies": ["Angular", "RxJS", "SASS", "API"]
+    },
+    {
+      "Title": "Dört Kart Özellik Bölümü",
+      "Description": "4 özelliği 4 kartta listeleyen minimalist tasarımlı tek sayfa. Angular animasyonları ile giriş animasyonları kullanılır.",
+      "ghLink": "https://github.com/srdrsvml1986/four-card-feature-section",
+      "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
+      "Technologies": ["Angular", "SASS", "CSS GRID"]
+    },
+    {
+      "Title": "Sosyal Kanıt Bölümü",
+      "Description": "Figma'da yapılmış bir tasarımdan tasarlanan sayfanın kişisel projesi. Geliştirme için SASS ve CSS GRID ile birlikte Angular kullanıldı.",
+      "ghLink": "https://github.com/srdrsvml1986/social-proof-section",
+      "demoLink": "https://projects.andresjosehr.com/social-proof-section",
+      "Technologies": ["Angular", "CSS GRID", "GIT"]
+    },
+    {
+      "Title": "SSS Akordiyon Kartı",
+      "Description": "Angular'da yapılmış mantık ve animasyonlarla sık sorulan sorular akordiyon.",
+      "ghLink": "https://github.com/srdrsvml1986/faq-accordion",
+      "demoLink": "https://projects.andresjosehr.com/faq-accordion",
+      "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+    },
+    {
+      "Title": "Profil Kartı",
+      "Description": "Bir kişinin temel bilgilerini içeren profil kartını gösteren basit bir sayfa tasarımı.",
+      "ghLink": "https://github.com/srdrsvml1986/profile-card-component",
+      "demoLink": "https://projects.andresjosehr.com/profile-card-component",
+      "Technologies": ["Angular", "SASS", "GIT"]
+    }
+  ],
+
+  "Contact.Pretitle": "Peki Şimdi?",
+  "Contact.Title": "Merhaba De!",
+  "Contact.Content": "Yeni fırsatları tartışmak isterseniz sizden haber almaktan mutluluk duyarım. Bana yazın, mesajınızı gördüğümde en kısa sürede yanıt vereceğim.",
+  "Contact.Btn": "İletişime Geç"
+}

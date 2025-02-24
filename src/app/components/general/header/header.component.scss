@@ -1,0 +1,480 @@
+@use "./../../../../variables.scss" as vars;
+
+// Tekrar eden stiller için mixin kullanalım
+@mixin transition {
+  transition: all 0.3s ease;
+}
+
+// Ortak özellikler için extend kullanalım
+%flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.main-navbar {
+  @extend %flex-center;
+  justify-content: space-between;
+  height: 60px;
+  background: rgba(vars.$Navy, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(vars.$Green, 0.1);
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  .container {
+    height: 100%;
+  }
+
+  .navbar-brand {
+    img {
+      @include transition;
+      &:hover {
+        transform: scale(1.1) rotate(-5deg);
+      }
+    }
+  }
+
+  .menu-ul {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    @media (max-width: 768px) {
+        display: none;  // Varsayılan olarak gizli
+        position: fixed;
+        top: 60px;  // navbar yüksekliği
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background-color: rgba(vars.$Navy, 0.95);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        padding: 2rem;
+        z-index: 999;
+        
+        &.active {
+            display: flex;  // Menü açıkken flex olarak göster
+        }
+    }
+  }
+
+  .cv-btn {
+    padding: 12px 24px;
+    border: 1.5px solid vars.$Green;
+    border-radius: 6px;
+    color: vars.$Green;
+    font-family: vars.$CodeFont;
+    font-size: 14px;
+    background: transparent;
+    
+    &:hover {
+      background: rgba(vars.$Green, 0.1);
+      transform: translateY(-2px);
+      box-shadow: 4px 4px 0 rgba(vars.$Green, 0.3);
+    }
+  }
+
+  .language-container {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: rgba(vars.$LightNavy, 0.5);
+    border: 1px solid rgba(vars.$Green, 0.1);
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(vars.$LightNavy, 0.8);
+      transform: translateY(-2px);
+    }
+
+    img {
+      width: 22px;
+      height: 22px;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+
+    .flag-text {
+      margin: 0 12px;
+      color: vars.$LightestSlate;
+      font-size: 14px;
+      font-family: vars.$CodeFont;
+    }
+
+    .arrow-language {
+      width: 12px;
+      height: 12px;
+      fill: vars.$Green;
+      @include transition;
+    }
+
+    &[aria-expanded="true"] {
+      .arrow-language {
+        transform: rotate(180deg);
+      }
+    }
+
+    @media (max-width: 768px) {
+      padding: 6px 12px;
+      
+      .flag-text {
+        font-size: 12px;
+        margin: 0 8px;
+      }
+      
+      img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+
+  .language-container-selector {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background: vars.$Navy;
+
+    &:hover {
+      background: rgba(vars.$LightNavy, 0.5);
+    }
+
+    &.active {
+      background: rgba(vars.$Green, 0.1);
+      
+      .arrow-active {
+        visibility: visible;
+        color: vars.$Green;
+      }
+    }
+  }
+}
+
+// Mobil menü
+.menu-wrapper {
+  .hamburger-menu {
+    width: 32px;
+    height: 2px;
+    background: vars.$Green;
+    position: relative;
+    cursor: pointer;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 2px;
+      background: vars.$Green;
+    }
+
+    &:before {
+      top: -8px;
+    }
+
+    &:after {
+      bottom: -8px;
+    }
+
+    &.animate {
+      background: transparent;
+
+      &:before {
+        top: 0;
+        transform: rotate(45deg);
+      }
+
+      &:after {
+        bottom: 0;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+.menu-responsive {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  background: rgba(vars.$Navy, 0.95);
+  backdrop-filter: blur(10px);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+  overflow-y: auto;
+  
+  &.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  aside {
+    background: rgba(vars.$LightNavy, 0.98);
+    backdrop-filter: blur(10px);
+    padding: 32px;
+    height: 100%;
+    width: 75vw;
+    position: fixed;
+    right: -75vw;
+    transition: right 0.3s ease;
+    overflow-y: auto;
+    
+    &.aside-show {
+      right: 0;
+    }
+
+    nav {
+      margin-top: 70px;
+      
+      ol {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+
+        li {
+          margin: 20px 0;
+          
+          a {
+            font-size: 16px;
+            color: vars.$LightestSlate;
+            display: block;
+            padding: 10px 0;
+            
+            span {
+              color: vars.$Green;
+              display: block;
+              font-size: 14px;
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media query'leri birleştirelim
+@media (max-width: 768px) {
+  .menu-ul,
+  .language-container,
+  .hamburger-btn {
+    // Mobil stiller
+  }
+}
+
+// Tekrar eden transition'ları mixin ile kullanalım
+.navbar-brand img,
+.nav-text,
+.cv-btn {
+  @include transition;
+}
+
+.nav-shadow {
+  box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+}
+
+::ng-deep {
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .dropdown-menu.show {
+    padding: 0;
+    border-radius: 6px;
+    background: vars.$LightNavy;
+    border: 1px solid rgba(vars.$Green, 0.1);
+    box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  }
+}
+
+// Ana içerik için padding ekleyelim
+section.section {
+  margin-top: 80px;
+  padding-top: 40px;
+  position: relative;
+  z-index: 0;
+  background-color: vars.$Navy;
+}
+
+// Banner section için özel düzenleme
+.banner {
+  margin-top: 80px;
+  padding-top: 40px;
+  position: relative;
+  z-index: 0;
+  background-color: vars.$Navy;
+}
+
+.hamburger-btn {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+
+    @media (max-width: 768px) {
+        display: block;  // Sadece mobilde göster
+        
+        span {
+            display: block;
+            width: 25px;
+            height: 2px;
+            background-color: vars.$Green;
+            margin: 5px 0;
+            transition: all 0.3s ease;
+        }
+        
+        &.active {
+            span {
+                &:nth-child(1) {
+                    transform: rotate(45deg) translate(5px, 5px);
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+                &:nth-child(3) {
+                    transform: rotate(-45deg) translate(7px, -6px);
+                }
+            }
+        }
+    }
+}
+
+.menu-ul {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    height: 100vh;
+    background-color: rgb(14, 5, 33);
+    padding: 80px 30px;
+    transition: all 0.3s ease;
+    
+    &.active {
+        display: block;
+        right: 0;
+    }
+
+    li {
+        margin: 20px 0;
+        opacity: 0;
+        animation: slideIn 0.5s ease forwards;
+        text-align: center;
+        
+        a {
+            justify-content: center;
+        }
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .hamburger-btn {
+        display: block;
+    }
+    .navbar-brand {
+      img {
+        display: none;
+      }
+    }
+    .menu-ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 75%;
+        height: 100vh;
+        background-color: rgb(14, 5, 33);
+        padding: 80px 30px;
+        transition: all 0.3s ease;
+        flex-direction: column;
+        
+        &.active {
+            display: block;
+            right: 0;
+        }
+
+        li {
+            margin: 3px 0;
+            opacity: 0;
+            animation: slideIn 0.5s ease forwards;
+            text-align: center;
+            
+            a {
+                justify-content: center;
+                padding: 3px 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .menu-ul {
+        display: flex;
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0;
+        background: none;
+        flex-direction: row;
+
+        li {
+            margin: 0 15px;
+            opacity: 1;
+            animation: none;
+            cursor: pointer;
+        }
+    }
+}
+
+// Mobil menü için
+.menu-ul.active {
+    position: fixed;
+    top: 70px; // navbar yüksekliğine göre ayarlayın
+    left: 0;
+    right: 0;
+    background-color: rgb(14, 5, 33);
+    z-index: 999;
+    li {
+        margin: 0 0;
+        
+        a {
+            padding: 3px 0;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+  section.section,
+  .banner {
+    margin-top: 80px;
+    padding-top: 20px;  // Mobil için daha az padding
+  }
+}

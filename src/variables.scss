@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Değişkenleri bir modül olarak dışa aktarmak için @forward kullanıyoruz
+@forward 'variables-module' show 
+  $Navy, $LightNavy, $LightestNavy, $Slate, $LightSlate, 
+  $LightestSlate, $White, $Green, $GreenOpacity,
+  $MainFont, $CodeFont;
