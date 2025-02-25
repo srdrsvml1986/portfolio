@@ -10,12 +10,23 @@
   display: flex;
   align-items: center;
 }
+.mobile-mode{
+  height: 8000px!important;
+  width: 100%!important;
+  position: fixed!important;
+  top: 0!important;
+  left: 0!important;
+  right: 0!important;
+  bottom: 0!important;
+  z-index: 1001!important;
+  //background-color: rgba(255, 0, 0, 0.98)!important;
 
+}
 .main-navbar {
   @extend %flex-center;
   justify-content: space-between;
   height: 60px;
-  background: rgba(vars.$Navy, 0.92);
+  //background: rgba(vars.$Navy, 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(vars.$Green, 0.1);
   position: relative;
@@ -24,6 +35,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
+
 
   .container {
     height: 100%;
@@ -41,27 +53,40 @@
   .menu-ul {
     display: flex;
     align-items: center;
-    gap: 0.2rem;
+    gap: 1.2rem;
     margin: 0;
     padding: 0;
     list-style: none;
+    position: static;
+    width: auto;
+    height: auto;
+    background: none;
+    right: auto;
     
     @media (max-width: 768px) {
-        display: none;  // Varsayılan olarak gizli
+        display: none;
         position: fixed;
-        top: 60px;  // navbar yüksekliği
+        top: 0;
         left: 0;
-        right: 0;
+        right: -100%;
         width: 100%;
-        height: calc(100vh - 60px);
-        background-color: rgba(vars.$Navy, 0.95);
+        height: 300vh;
+        //background-color: rgba(14, 5, 33, 0.98);
         backdrop-filter: blur(10px);
+        padding: 80px 30px;
+        transition: all 0.3s ease;
         flex-direction: column;
-        padding: 2rem;
         z-index: 999;
         
         &.active {
-            display: flex;  // Menü açıkken flex olarak göster
+            display: flex;
+            right: 0;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            //background-color: rgba(14, 5, 33, 0.98);
+            backdrop-filter: blur(10px);
         }
     }
   }
@@ -167,7 +192,7 @@
     background: vars.$Green;
     position: relative;
     cursor: pointer;
-
+    z-index: 100002!important;
     &:before,
     &:after {
       content: '';
@@ -209,7 +234,7 @@
   width: 100%;
   height: 100vh;
   z-index: 9999;
-  background: rgba(vars.$Navy, 0.95);
+  //background: rgba(vars.$Navy, 0.95);
   backdrop-filter: blur(10px);
   visibility: hidden;
   opacity: 0;
@@ -335,7 +360,7 @@ section.section {
             width: 25px;
             height: 2px;
             background-color: vars.$Green;
-            margin: 5px 0;
+            margin: 6px 0;
             transition: all 0.3s ease;
         }
         
@@ -356,68 +381,30 @@ section.section {
 }
 
 .menu-ul {
-    display: flex;
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 75%;
-    height: 100vh;
-    background-color: rgb(14, 5, 33);
-    padding: 80px 30px;
-    transition: all 0.3s ease;
-    
-    &.active {
-        display: block;
-        right: 0;
-    }
-
-    li {
-        margin: 20px 0;
-        opacity: 0;
-        animation: slideIn 0.5s ease forwards;
-        text-align: center;
-        
-        a {
-            justify-content: center;
-        }
-    }
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateX(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@media (max-width: 768px) {
-    .hamburger-btn {
-        display: block;
-    }
-    .navbar-brand {
-      img {
-        display: none;
-      }
-    }
-    .menu-ul {
+    @media (max-width: 768px) {
         display: none;
         position: fixed;
         top: 0;
+        left: 0;
         right: -100%;
-        width: 75%;
+        width: 100%;
         height: 100vh;
-        background-color: rgb(14, 5, 33);
+        background-color: rgba(14, 5, 33, 0.98);
+        backdrop-filter: blur(10px);
         padding: 80px 30px;
         transition: all 0.3s ease;
         flex-direction: column;
+        z-index: 999;
         
         &.active {
             display: block;
             right: 0;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgb(14, 5, 33);
+            backdrop-filter: blur(10px);
         }
 
         li {
@@ -434,47 +421,111 @@ section.section {
     }
 }
 
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 @media (min-width: 769px) {
     .menu-ul {
-        display: flex;
-        position: static;
-        width: auto;
-        height: auto;
+        display: flex !important;
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
         padding: 0;
         background: none;
         flex-direction: row;
+        gap: 1.5rem;
+        right: auto !important;
+        top: auto !important;
 
         li {
-            margin: 0 15px;
+            margin: 0;
             opacity: 1;
             animation: none;
             cursor: pointer;
+            
+            &:last-child {
+                margin-left: 0.5rem;
+            }
+
+            a {
+                justify-content: flex-start;
+            }
         }
     }
 }
 
-// Mobil menü için
-.menu-ul.active {
-    position: fixed;
-    top: 70px; // navbar yüksekliğine göre ayarlayın
-    left: 0;
-    right: 0;
-    background-color: rgb(14, 5, 33);
-    z-index: 999;
-    li {
-        margin: 0 0;
-        
-        a {
-            padding: 3px 0;
-            cursor: pointer;
-        }
-    }
-}
-
+// Mobil menü için olan .menu-ul.active stilini sadece mobil ekranlarda uyguluyoruz
 @media (max-width: 768px) {
+    .menu-ul.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+ 
+  .hamburger-btn {
+      display: block;
+  }
+  .navbar-brand {
+    img {
+      display: none;
+    }
+  }
+  .menu-ul {
+      display: none;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(14, 5, 33);
+      padding: 8px 3px;
+      transition: all 0.3s ease;
+      flex-direction: column;
+      
+      &.active {
+          display: block;
+          right: 0;
+      }
+
+      li {
+          margin: 3px 0;
+          opacity: 0;
+          animation: slideIn 0.5s ease forwards;
+          text-align: center;
+          
+          a {
+              justify-content: center;
+              padding: 3px 0;
+          }
+      }
+  }
+ 
   section.section,
   .banner {
     margin-top: 80px;
     padding-top: 20px;  // Mobil için daha az padding
   }
+}
+
+.menu-ul {
+    @media (max-width: 768px) {
+        &.active {
+            height: 100vh;
+            max-height: -webkit-fill-available; // iOS için tam yükseklik
+            padding-bottom: env(safe-area-inset-bottom); // iPhone X ve üzeri için güvenli alan
+        }
+    }
 }

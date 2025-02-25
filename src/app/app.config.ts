@@ -30,6 +30,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { provideServiceWorker } from '@angular/service-worker';
+import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -54,6 +55,7 @@ export const appConfig: ApplicationConfig = {
       FormsModule,
       ReactiveFormsModule,
       BrowserAnimationsModule,
+      NgxGoogleAnalyticsModule.forRoot('G-MZ3SF20XZY')
     ),
     {provide: LOCALE_ID, useValue: 'tr-TR'},
     importProvidersFrom(

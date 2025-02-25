@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-   // this.analyticsService.sendAnalyticPageView("/", "")
+   this.analyticsService.sendAnalyticPageView("/", "")
     this.route.params.subscribe(params => {
       const language = params['language'];
       // Burada dil değişikliği işlemlerini yapabilirsiniz

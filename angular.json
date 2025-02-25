@@ -19,9 +19,9 @@
             "sourceRoot": "src",
             "prefix": "app",
             "i18n": {
-                "sourceLocale": "es",
+                "sourceLocale": "tr",
                 "locales": {
-                    "en-US": "x.en.xlf"
+                    "tr-TR": "tr.xlf"
                 }
             },
             "architect": {

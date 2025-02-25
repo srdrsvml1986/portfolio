@@ -21,6 +21,9 @@ export class LanguageService {
     let language = navigator.language || (navigator as any).userLanguage;
     language = language.split("-").includes("tr") ? "tr" : "en"
     this.translateService.setDefaultLang(language)
+    
+    // HTML lang özelliğini güncelle
+    document.documentElement.lang = language;
 
     // Router ile yönlendirme yap
     this.router.navigate([language]);
@@ -30,6 +33,10 @@ export class LanguageService {
 
   changeLanguage(language){
     this.translateService.setDefaultLang(language)
+    
+    // HTML lang özelliğini güncelle
+    document.documentElement.lang = language;
+    
     // Router ile yönlendirme yap
     this.router.navigate([language]);
     this.language=language
