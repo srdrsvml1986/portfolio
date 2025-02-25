@@ -7,12 +7,14 @@
   "Header.cvName": "tr.pdf",
 
   "Banner.Pretitle": "Merhaba",
-  "Banner.Description": "Web'i daha iyi bir yer haline getirmek için sistemler, arayüzler, botlar ve teknolojik çözümler geliştirmede <span class='underline'>8 yıllık deneyime</span> sahibim. <span class='underline'>Angular</span> ve <span class='underline'>Laravel</span> ile temiz, yeniden kullanılabilir ve ölçeklenebilir kod yazmaya ve yeniden düzenlemeye, iyi uygulamaları ve geliştirme standartlarını uygulayarak özen gösteriyorum.",
+  "Banner.Description": "Web'i daha iyi bir yer haline getirmek için sistemler, arayüzler, botlar ve teknolojik çözümler geliştirmede <span class='underline'>10 yıllık deneyime</span> sahibim. <span class='underline'>Angular</span>, <span class='underline'>Flutter</span> ve <span class='underline'>C#</span> ile temiz, yeniden kullanılabilir ve ölçeklenebilir kod yazmaya ve yeniden düzenlemeye, iyi uygulamaları ve geliştirme standartlarını uygulayarak özen gösteriyorum.",
   "Banner.ActionBtn": "Merhaba",
+  "Banner.Title": "Serdar Sevimli",
+  "Banner.Subtitle": "Yazılım Geliştirici",
 
   "AboutMe.Title": "Hakkımda",
   "AboutMe.Paragraphs": [
-    "<span class='underline'>8 yıllık deneyimimde</span> birçok rol üstlendim: <span class='underline'>Sistem Analisti</span>, <span class='underline'>Backend Geliştirici</span>, <span class='underline'>Frontend Geliştirici</span> ve <span class='underline'>Teknik Lider</span>. Problemleri çözmeye yardımcı olan yeni şeyler yaratmak için bilgimi paylaşmayı seviyorum.",
+    "<span class='underline'>10 yıllık deneyimimde</span> birçok rol üstlendim: <span class='underline'>Sistem Analisti</span>, <span class='underline'>Backend Geliştirici</span> ve <span class='underline'>Frontend Geliştirici</span>. Problemleri çözmeye yardımcı olan yeni şeyler yaratmak için bilgimi paylaşmayı seviyorum.",
     "Yeteneklerim arasında sistem iyileştirmeleri yapmak, siteleri optimize etmek, kalıpları standartlaştırmak ve üzerinde çalıştığım projeye değer katan fikirler önermek ve uygulamak da var.",
     "Ayrıca kişisel kullanımım için, hobi veya fayda amaçlı programlar da yazıyorum.",
     "Eğitim aldığım ve çalıştığım teknolojilerden bazıları şunlardır (bunlarla sınırlı değildir):"
@@ -21,81 +23,35 @@
   "Experience.Title": "Deneyim",
   "Experience.Jobs": [
     {
-      "Tab": "Global",
-      "Title": "Fullstack Geliştirici",
-      "Date": "Mayıs 2023",
-      "Description": [
-        "Teknik karar alma sürecinde lider",
-        "Şirket için teknik yetenek işe alımı",
-        "Teknoloji departmanı takım lideri",
-        "Kurs satışları için dahili süreç yönetimi platformunun oluşturulması ve bakımı",
-        "WordPress platformunu özelleştirmek için özel fonksiyonlar ve eklentiler programlama",
-        "Sürekli entegrasyon ve günlük yedeklemelerin uygulanması",
-        "Planlama ve raporlama toplantıları"
-      ]
-    },
-    {
-      "Tab": "Proyex",
-      "Title": "Fullstack Geliştirici",
-      "Date": "Aralık 2019 - Mayıs 2023",
-      "Description": [
-        "WordPress'te grafikli izleme platformunun oluşturulması ve bakımı",
-        "Gerekli izleme özelliklerini eklemek için şablonlarda ve eklentilerde fonksiyonel programlama",
-        "Sürekli entegrasyon ve günlük yedeklemelerin uygulanması",
-        "Angular, Angular Material, Laravel, MySQL, RxJS, Sass ile yapılmış, yapılandırılabilir grafikler, alarm sistemleri ve kullanıcı yönetimi ve genel yapılandırma ayarları içeren ikinci bir İzleme Platformunun oluşturulması ve bakımı",
-        "Planlama ve raporlama toplantıları"
-      ]
-    },
-    {
       "Tab": "Serbest",
       "Title": "Serbest Çalışan",
-      "Date": "Mayıs 2016 - Günümüz",
+      "Date": "Mayıs 2020 - Günümüz",
       "Description": [
         "Frontend ve backend'de sürekli iyileştirmeler uygulanması",
-        "Angular, Laravel, WordPress ile fonksiyonel, reaktif ve nesne yönelimli programlama paradigmaları kullanılarak platformlar oluşturulması",
+        "Angular, reaktif ve nesne yönelimli programlama paradigmaları kullanılarak platformlar oluşturulması",
+        "C# Net Core, Web Api, Entity Framework, Sqlite, Web Uygulamaları, Mobile Uygulamaları, Flutter ile çalışma",
         "Veri yapıları ile süreç otomasyonu",
         "SASS, Bootstrap, Materialize, Bulma vb. ile şablon tasarımları"
       ]
     },
     {
-      "Tab": "Moebius",
-      "Title": "Fullstack Geliştirici",
-      "Date": "Temmuz 2017 - Ekim 2018",
+      "Tab": "Flutter",
+      "Title": "Mobil Uygulama Geliştirici",
+      "Date": "Mayıs 2020 - Günümüz",
       "Description": [
-        "Angular, Laravel ve MySQL ile yapılmış turizm veri yönetimi platformunun geliştirilmesinde 4 kişilik ekibe liderlik",
-        "Azure'da CI/CD uygulaması. Uygulama yükleme sürelerinin yeniden düzenlenmesi ve optimize edilmesi",
-        "RxJS ile API isteklerinin kodlanması",
-        "Karmaşık reaktif formlarla modüller oluşturma",
-        "Hedefler ve planlar hakkında haftalık raporlar yazma"
+        "Flutter ile yapılmış mevcut çalışan yönetimi platformuna yeni işlevler programlama",
+        "Eski kodun yeniden düzenlenmesi. Düzenli Flutter güncellemeleri dahil her güncellemeyle her bağımlılığın uyumluluğunun sağlanması"
       ]
     },
     {
-      "Tab": "TechLatam",
-      "Title": "Frontend Geliştirici",
-      "Date": "Şubat 2016 - Mayıs 2017",
-      "Description": [
-        "ACF ile WordPress şablonları oluşturma, JavaScript/jQuery'de fonksiyonel programlama, SASS'ta stiller",
-        "Şablonlar için tasarım ve yükleme süresi iyileştirmelerinin entegrasyonu",
-        "Tasarım ekibiyle Avocode/Figma kullanarak etkili iletişim"
-      ]
-    },
-    {
-      "Tab": "CANTV",
+      "Tab": "Angular",
       "Title": "Sistem Analisti",
-      "Date": "Kasım 2015 - Aralık 2016",
+      "Date": "Kasım 2015 - Aralık 2020",
       "Description": [
-        "Angular ve ExpressJS ile yapılmış mevcut çalışan yönetimi platformuna yeni işlevler programlama",
+        "Angular ile yapılmış mevcut çalışan yönetimi platformuna yeni işlevler programlama",
         "Eski kodun yeniden düzenlenmesi. Düzenli Angular güncellemeleri dahil her güncellemeyle her bağımlılığın uyumluluğunun sağlanması"
       ]
-    },
-    {
-      "Tab": "IEP",
-      "Title": "İngilizce Öğretmeni",
-      "Date": "Ocak 2015 - Temmuz 2015",
-      "Description": [
-        "200'den fazla öğrenciye temel İngilizce öğretimi"
-      ]
-    }
+    }    
   ],
 
   "FeatureProjects.Title": "Projelerim",

@@ -1,109 +1,65 @@
 {
-  "Header.Item1": "About Me",
+  "Header.Item1": "About",
   "Header.Item2": "Experience",
   "Header.Item3": "Projects",
   "Header.Item4": "Contact",
   "Header.cvBtn": "Resume",
   "Header.cvName": "en.pdf",
 
-  "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I have <span class='underline'>8 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, applying good practices and development standards.",
-  "Banner.ActionBtn": "Say Hi",
+  "Banner.Pretitle": "Hello",
+  "Banner.Description": "I have <span class='underline'>10 years of experience</span> in developing systems, interfaces, bots, and technological solutions to make the web a better place. I take care to write and refactor clean, reusable, and scalable code with <span class='underline'>Angular</span>, <span class='underline'>Flutter</span>, and <span class='underline'>C#</span>, implementing best practices and development standards.",
+  "Banner.ActionBtn": "Hello",
+  "Banner.Title": "Serdar Sevimli",
+  "Banner.Subtitle": "Software Developer",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "In <span class='underline'>8 years of experience</span> I have covered many roles: <span class='underline'>Systems Analyst</span>, <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Technical Lead</span>. I love contributing my knowledge to create new things that help solve problems.",
-    "My capabilities also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
-    "I also program things for my personal use, whether for hobby or utility.",
-    "Some of the technologies I have trained and worked with include (but are not limited to):"
+    "In my <span class='underline'>10 years of experience</span>, I've taken on many roles: <span class='underline'>System Analyst</span>, <span class='underline'>Backend Developer</span>, and <span class='underline'>Frontend Developer</span>. I love sharing my knowledge to create new things that help solve problems.",
+    "My abilities include making system improvements, optimizing sites, standardizing patterns, and proposing and implementing ideas that add value to the project I'm working on.",
+    "I also write programs for personal use, hobby, or utility purposes.",
+    "Some of the technologies I've trained in and worked with include (but are not limited to):"
   ],
 
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
-      "Tab": "Global",
-      "Title": "Fullstack Developer",
-      "Date": "May 2023",
-      "Description": [
-        "Leader in technical decision making",
-        "Hiring technical talent for the company",
-        "Team leader of the technology department",
-        "Creation and maintenance of an internal process management platform for course sales",
-        "Programming custom functions and plugins for customizing a WordPress platform",
-        "Implementation of continuous integration and daily backups.",
-        "Planning and reporting meetings."
-      ]
-    },
-    {
-      "Tab": "Proyex",
-      "Title": "Fullstack Developer",
-      "Date": "December 2019 - May 2023",
-      "Description": [
-        "Creation and maintenance of a monitoring platform with charts in WordPress.",
-        "Functional programming in templates and plugins to add necessary monitoring features.",
-        "Implementation of continuous integration and daily backups.",
-        "Creation and maintenance of a second Monitoring Platform made with Angular, Angular Material, Laravel, MySQL, RxJS, Sass with configurable charts, alarm systems, and user management and general configuration settings.",
-        "Planning and reporting meetings."
-      ]
-    },
-    {
-      "Tab": "Freelancer",
+      "Tab": "Freelance",
       "Title": "Freelancer",
-      "Date": "May 2016 - Present",
+      "Date": "May 2020 - Present",
       "Description": [
-        "Continuous improvements implementation, working on frontend and backend.",
-        "Creation of platforms with Angular, Laravel, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-        "Process automation with data structures.",
+        "Continuous improvements in frontend and backend",
+        "Building platforms using Angular, reactive and object-oriented programming paradigms",
+        "Working with C# Net Core, Web Api, Entity Framework, Sqlite, Web Applications, Mobile Applications, Flutter",
+        "Process automation with data structures",
         "Template designs with SASS, Bootstrap, Materialize, Bulma, etc."
       ]
     },
     {
-      "Tab": "Moebius",
-      "Title": "Fullstack Developer",
-      "Date": "July 2017 - October 2018",
+      "Tab": "Flutter",
+      "Title": "Mobile Application Developer",
+      "Date": "May 2020 - Present",
       "Description": [
-        "Leading a team of 4 people in the development of a tourism data management platform made in Angular, Laravel, and MySQL.",
-        "Implementation of CI/CD in Azure. Refactoring and optimizing application load times.",
-        "Coding API requests with RxJS.",
-        "Creating modules with complex reactive forms.",
-        "Writing weekly reports about goals and plans."
+        "Programming new functionalities to existing employee management platform made with Flutter",
+        "Refactoring legacy code. Ensuring compatibility of every dependency with each update including regular Flutter updates"
       ]
     },
     {
-      "Tab": "TechLatam",
-      "Title": "Frontend Developer",
-      "Date": "February 2016 - May 2017",
+      "Tab": "Angular",
+      "Title": "System Analyst",
+      "Date": "November 2015 - December 2020",
       "Description": [
-        "Creating WordPress templates with ACF, functional programming in JavaScript/jQuery, styles in SASS.",
-        "Integrating design and load time improvements for templates.",
-        "Effective communication with the design team, working with Avocode/Figma."
+        "Programming new functionalities to existing employee management platform made with Angular",
+        "Refactoring legacy code. Ensuring compatibility of every dependency with each update including regular Angular updates"
       ]
-    },
-    {
-      "Tab": "CANTV",
-      "Title": "Systems Analyst",
-      "Date": "November 2015 - December 2016",
-      "Description": [
-        "Programming new functionalities for an existing employee management platform made with Angular and ExpressJS.",
-        "Refactoring old code. Ensuring compatibility of each dependency with each update, including regular Angular updates."
-      ]
-    },
-    {
-      "Tab": "IEP",
-      "Title": "English Teacher",
-      "Date": "January 2015 - July 2015",
-      "Description": [
-        "Teaching basic English to a student body of over 200 students."
-      ]
-    }
+    }    
   ],
 
   "FeatureProjects.Title": "My Projects",
-  "FeatureProjects.Label": "Highlighted Project",
+  "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
     {
       "Title": "Gisselle",
-      "Description": "Web application for internal company management that covers sales, collection, and tracking departments, very extensive and complex with various functions made in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It works with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>laravel jobs</span>, integrations with WordPress, Zadarma, LiveConnect, etc.",
+      "Description": "Internal management web application made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, covering sales, collection, and tracking departments, with various comprehensive and complex functionalities. Works with integrations with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>laravel jobs</span>, WordPress, Zadarma, LiveConnect, etc.",
       "imgs": [
         "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
         "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
@@ -115,7 +71,7 @@
     },
     {
       "Title": "Emelteciot",
-      "Description": "Monitoring application for data query, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. The <span class='underline'>chart.js</span> library is applied.",
+      "Description": "Monitoring application for data querying made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. Implemented <span class='underline'>chart.js</span> library.",
       "imgs": [
         "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
         "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
@@ -127,7 +83,7 @@
     },
     {
       "Title": "Vas Aviation",
-      "Description": "Application for tracking fuel supply requests for aircraft. It has an <span class='underline'>email module</span>, <span class='underline'>real-time notifications</span>, <span class='underline'>CSV file handling for data import</span>, <span class='underline'>price quotes</span>. Developed in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>.",
+      "Description": "Application for tracking fuel supply requests for aircraft. Includes <span class='underline'>email module</span>, <span class='underline'>real-time notifications</span>, <span class='underline'>CSV file processing for data import</span>, <span class='underline'>price quotes</span>. Developed with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>.",
       "imgs": [
         "assets/images/vasaviation/capture0.png",
         "assets/images/vasaviation/capture1.png",
@@ -140,7 +96,7 @@
     },
     {
       "Title": "GlobalJobs",
-      "Description": "E-learning platform developed with WordPress. Fully customized design, with plugins developed from scratch. It has a customized payment module, virtual classroom, course tracking dashboard.",
+      "Description": "E-learning platform developed with WordPress. Fully customized design with plugins developed from scratch. Features custom payment module, virtual classroom, course tracking panel.",
       "imgs": [
         "assets/images/globaljobs/capture1.png",
         "assets/images/globaljobs/capture2.png",
@@ -153,7 +109,7 @@
     },
     {
       "Title": "GlobalJobs",
-      "Description": "E-commerce platform for technology products. Developed with WordPress and implementing a shipping system for products. It has sales reporting through customized programming.",
+      "Description": "E-commerce platform for technology products. Developed with WordPress and implemented shipping system for products. Features sales reporting with custom programming.",
       "imgs": [
         "assets/images/mbelectronics/capture0.png",
         "assets/images/mbelectronics/capture1.png",
@@ -163,7 +119,7 @@
     },
     {
       "Title": "Agrourbana",
-      "Description": "Monitoring application made from scratch with an auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has logic for reactive forms for parameter configuration.",
+      "Description": "Monitoring application built from scratch, including authentication module, <span class='underline'>configurable charts</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. Also includes logic for complex reactive forms for parameter configuration.",
       "imgs": [
         "assets/images/agrourbana/agrourbana1.png",
         "assets/images/agrourbana/agrourbana2.png",
@@ -175,7 +131,7 @@
     },
     {
       "Title": "Tu Super Plan",
-      "Description": "Health plans quote that has an advanced search engine. The plans are shown based on the user's age, monthly income, and location. It has a <span class='underline'>live chat</span>, <span class='underline'>contact form</span>, <span class='underline'>notification system via WhatsApp and email</span>, <span class='underline'>auth</span>, and <span class='underline'>information management through the admin role</span>.",
+      "Description": "Health plans quotation with advanced search engine. Plans are shown based on user's age, monthly income, and location. Includes <span class='underline'>live chat</span>, <span class='underline'>contact form</span>, <span class='underline'>notification system via WhatsApp and email</span>, <span class='underline'>authentication</span>, and <span class='underline'>information management through admin role</span>.",
       "imgs": [
         "assets/images/tusuperplan/tusuperplan1.png",
         "assets/images/tusuperplan/tusuperplan2.png",
@@ -187,7 +143,7 @@
     },
     {
       "Title": "Proyexiot",
-      "Description": "Data monitoring platform for water wells, tugboats, and various installations made from scratch with an auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers</span>. It also has logic for reactive forms for parameter configuration.",
+      "Description": "Data monitoring platform built from scratch for water wells, tugboats, and various facilities, including authentication module, <span class='underline'>configurable charts</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers</span>. Also includes logic for reactive forms for parameter configuration.",
       "imgs": [
         "assets/images/proyex/proyex1.png",
         "assets/images/proyex/proyex2.png",
@@ -206,11 +162,11 @@
     }
   ],
 
-  "OtherProjects.Title": "More Projects",
+  "OtherProjects.Title": "Other Projects",
   "OtherProjects.Projects": [
     {
       "Title": "Hands Game",
-      "Description": "Extended rock-paper-scissors game. A personal project developed in Angular where you play randomly against the machine. It features the use of services, interfaces, and components.",
+      "Description": "Extended rock-paper-scissors game. A personal project developed in Angular, you play randomly against the machine. Includes use of services, interfaces, and components.",
       "imgs": ["assets/images/hands-game.png"],
       "ghLink": "https://github.com/srdrsvml1986/hands-game",
       "demoLink": "https://projects.andresjosehr.com/hands-game",
@@ -218,7 +174,7 @@
     },
     {
       "Title": "Countries Viewer",
-      "Description": "Interface that consumes a countries API where you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+      "Description": "Interface consuming a countries API where you can view the list of countries, see details of each country, filter by name and region. It also has a dark mode where you can switch between dark and light themes.",
       "imgs": ["assets/images/countries-viewer.png"],
       "ghLink": "https://github.com/srdrsvml1986/countries-viewer",
       "demoLink": "https://projects.andresjosehr.com/countries-viewer",
@@ -226,36 +182,36 @@
     },
     {
       "Title": "Four Card Feature Section",
-      "Description": "A single page with a minimalist design listing 4 features in 4 cards. Entry animations are used with Angular animations.",
+      "Description": "Single page with minimalist design that lists 4 features in 4 cards. Uses entry animations with Angular animations.",
       "ghLink": "https://github.com/srdrsvml1986/four-card-feature-section",
       "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
       "Technologies": ["Angular", "SASS", "CSS GRID"]
     },
     {
       "Title": "Social Proof Section",
-      "Description": "Personal project of a page designed from a design made in Figma. Angular was used for development along with SASS and CSS GRID.",
+      "Description": "Personal project of page designed from a design made in Figma. Angular was used along with SASS and CSS GRID for development.",
       "ghLink": "https://github.com/srdrsvml1986/social-proof-section",
       "demoLink": "https://projects.andresjosehr.com/social-proof-section",
       "Technologies": ["Angular", "CSS GRID", "GIT"]
     },
     {
       "Title": "FAQ Accordion Card",
-      "Description": "Frequently asked questions accordion with logic and animations made in Angular.",
+      "Description": "Frequently asked questions accordion made in Angular with logic and animations.",
       "ghLink": "https://github.com/srdrsvml1986/faq-accordion",
       "demoLink": "https://projects.andresjosehr.com/faq-accordion",
       "Technologies": ["Angular", "CSS GRID", "Angular animations"]
     },
     {
       "Title": "Profile Card",
-      "Description": "Simple design of a page featuring a profile card with basic information of a person.",
+      "Description": "Simple page design showing a profile card containing basic information about a person.",
       "ghLink": "https://github.com/srdrsvml1986/profile-card-component",
       "demoLink": "https://projects.andresjosehr.com/profile-card-component",
       "Technologies": ["Angular", "SASS", "GIT"]
     }
   ],
 
-  "Contact.Pretitle": "And... Now?",
-  "Contact.Title": "Say Hi!",
-  "Contact.Content": "I will be glad to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
-  "Contact.Btn": "Contact Me"
+  "Contact.Pretitle": "What's Next?",
+  "Contact.Title": "Say Hello!",
+  "Contact.Content": "I'd be happy to hear from you if you'd like to discuss new opportunities. Write to me, and I'll respond as soon as I see your message.",
+  "Contact.Btn": "Get In Touch"
 }

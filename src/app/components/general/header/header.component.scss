@@ -11,7 +11,7 @@
   align-items: center;
 }
 .mobile-mode{
-  height: 8000px!important;
+  height: 100%!important;
   width: 100%!important;
   position: fixed!important;
   top: 0!important;
@@ -477,6 +477,9 @@ section.section {
  
   .hamburger-btn {
       display: block;
+      position: absolute;
+      top: 15px;
+      right: 0;
   }
   .navbar-brand {
     img {
