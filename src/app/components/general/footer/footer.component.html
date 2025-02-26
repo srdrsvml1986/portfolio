@@ -17,8 +17,8 @@
         </div>
     </div>
     <div class="footer-credits text-center" >
-        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_andresjose", "footer", "click")' href="https://github.com/srdrsvml1986/portfolio" target="_blank" rel="nofollow noopener noreferrer">
-            <div>Serdar Sevimli tarafından Angular ile oluşturuldu</div>
+        <a (click)="openGithubPortfolio()" style="cursor: pointer;">
+            <div>{{"Footer.Company" | translate}}</div>
         </a>
     </div>
 </footer>

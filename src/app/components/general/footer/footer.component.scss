@@ -2,6 +2,9 @@
 
 footer{
     color: v.$LightSlate;
+    position: relative;
+    width: 100%;
+    bottom: 0;
 
     .footer-left-bar:after, .footer-right-bar:after{
         content: '';

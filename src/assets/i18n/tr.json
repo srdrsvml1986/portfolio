@@ -7,17 +7,18 @@
   "Header.cvName": "tr.pdf",
 
   "Banner.Pretitle": "Merhaba",
-  "Banner.Description": "Web'i daha iyi bir yer haline getirmek için sistemler, arayüzler, botlar ve teknolojik çözümler geliştirmede <span class='underline'>10 yıllık deneyime</span> sahibim. <span class='underline'>Angular</span>, <span class='underline'>Flutter</span> ve <span class='underline'>C#</span> ile temiz, yeniden kullanılabilir ve ölçeklenebilir kod yazmaya ve yeniden düzenlemeye, iyi uygulamaları ve geliştirme standartlarını uygulayarak özen gösteriyorum.",
+  "Banner.Description": "<p><p><br>Dijital dönüşümün ve yenilikçi teknolojilerin iş dünyasını şekillendiren gücüne tutkuyla bağlı, deneyimli bir yazılım geliştiriciyim. Küçük ve orta ölçekli işletmelerin çevrimiçi dünyada etkileyici bir varlık oluşturmalarına destek olmak için modern, kullanıcı dostu web ve mobil çözümler tasarlıyor ve geliştiriyorum. Amacım, teknolojiyi iş hedeflerinizle buluşturarak rekabette öne çıkmanızı sağlamak.</p></p><br>Web'i daha iyi bir yer haline getirmek için sistemler, arayüzler, botlar ve teknolojik çözümler geliştirmede <span class='underline'>10 yıllık deneyime</span> sahibim. <span class='underline'>Angular</span>, <span class='underline'>Flutter</span> ve <span class='underline'>C#</span> ile temiz, yeniden kullanılabilir ve ölçeklenebilir kod yazmaya ve yeniden düzenlemeye, iyi uygulamaları ve geliştirme standartlarını uygulayarak özen gösteriyorum.",
   "Banner.ActionBtn": "Merhaba",
   "Banner.Title": "Serdar Sevimli",
-  "Banner.Subtitle": "Yazılım Geliştirici",
+  "Banner.Subtitle": "Yazılım Geliştirici & Dijital Çözümler Uzmanı",
 
   "AboutMe.Title": "Hakkımda",
   "AboutMe.Paragraphs": [
     "<span class='underline'>10 yıllık deneyimimde</span> birçok rol üstlendim: <span class='underline'>Sistem Analisti</span>, <span class='underline'>Backend Geliştirici</span> ve <span class='underline'>Frontend Geliştirici</span>. Problemleri çözmeye yardımcı olan yeni şeyler yaratmak için bilgimi paylaşmayı seviyorum.",
     "Yeteneklerim arasında sistem iyileştirmeleri yapmak, siteleri optimize etmek, kalıpları standartlaştırmak ve üzerinde çalıştığım projeye değer katan fikirler önermek ve uygulamak da var.",
     "Ayrıca kişisel kullanımım için, hobi veya fayda amaçlı programlar da yazıyorum.",
-    "Eğitim aldığım ve çalıştığım teknolojilerden bazıları şunlardır (bunlarla sınırlı değildir):"
+    "Eğitim aldığım ve çalıştığım teknolojilerden bazıları şunlardır (bunlarla sınırlı değildir):",
+    "<div><p><strong>Uzmanlık Alanlarım:</strong><br>🔹 <strong>Web Geliştirme:</strong> HTML5, CSS3, Angular ve jQuery ile dinamik, etkileşimli ve erişilebilir arayüzler.<br>🔹 <strong>API &amp; Back-End:</strong> RESTful Web API’leri kullanarak ölçeklenebilir, güvenli ve performanslı arka plan sistemleri.<br>🔹 <strong>Mobil Uygulama Geliştirme:</strong> Android, iOS ve Flutter ile yerel ve çapraz platform uygulamalar (zamandan ve bütçeden tasarruf!).<br>🔹 <strong>SEO &amp; Dijital Pazarlama:</strong> Arama motorlarında üst sıralara çıkmak için stratejik SEO entegrasyonu.<br>🔹 <strong>Proje Yönetimi:</strong> Başlangıçtan teslimata kadar şeffaf iletişim, zamanında sonuçlar ve müşteri odaklı yaklaşım.</p><p><strong>Neden Benimle Çalışmalısınız?</strong><br>Teknolojiyi yalnızca araç olarak değil, işinizin büyümesini tetikleyen bir kaldıraç olarak görüyorum. Her projede en güncel trendleri ve ihtiyaçlara özel çözümleri harmanlayarak, sürdürülebilir başarıya odaklanıyorum. Müşterilerimle kurduğum açık iletişim, projelerin sorunsuz ilerlemesinin temelini oluşturuyor.</p><p><strong>İş Birliği Çağrısı:</strong><br>Dijital dönüşüm yolculuğunuzda yenilikçi bir partner mi arıyorsunuz? İster mevcut projenizi güncellemek ister sıfırdan bir fikri hayata geçirmek istiyor olun, birlikte fark yaratabiliriz.</p></div>"
   ],
 
   "Experience.Title": "Deneyim",
@@ -209,9 +210,14 @@
       "Technologies": ["Angular", "SASS", "GIT"]
     }
   ],
-
-  "Contact.Pretitle": "Peki Şimdi?",
-  "Contact.Title": "Merhaba De!",
-  "Contact.Content": "Yeni fırsatları tartışmak isterseniz sizden haber almaktan mutluluk duyarım. Bana yazın, mesajınızı gördüğümde en kısa sürede yanıt vereceğim.",
-  "Contact.Btn": "İletişime Geç"
+  "Contact.Pretitle": "",
+  "Contact.Title": "Merhaba Sayın Müşterimiz",
+  "Contact.Content": "<hr><h3><strong>📩 Dijital Hayalinizi Gerçeğe Dönüştürelim!</strong></h3><p>Merhaba! Ben Serdar Sevimli. İşletmenizin çevrimiçi dünyada parlaması için buradayım. Web siteniz mi yoksa mobil uygulamanız mı eksik? Yoksa dijital varlığınızı yenilemek mi istiyorsunuz? <strong>Teknolojiyi iş stratejinizle birleştirerek</strong> size özel çözümler sunuyorum.</p><p><strong>Nasıl Yardımcı Olabilirim?</strong><br>✅ <strong>Web &amp; Mobil Uygulama:</strong> Kullanıcı dostu, hızlı ve SEO uyumlu.<br>✅ <strong>Özel Yazılım Çözümleri:</strong> İş akışınızı optimize eden API'lar ve sistemler.<br>✅ <strong>Dijital Görünürlük:</strong> Arama motorlarında üst sıralara çıkma hedefiyle SEO stratejileri.<br>✅ <strong>Danışmanlık:</strong> Projeniz için en doğru teknolojiyi birlikte belirleyelim.</p><p><strong>Neden Bana Güvenmelisiniz?</strong><br>🔸 10+ yıllık deneyimle <strong>ölçülebilir sonuçlar</strong>.<br>🔸 Şeffaf iletişim ve <strong>proje takip panosu</strong> ile süreçleriniz kontrolünüzde.<br>🔸 'Anlıyorum, çözüyorum' yaklaşımı: Teknik dil karmaşasına son!</p><p><strong>Hemen İletişime Geçin!</strong><br>Bir fikriniz varsa veya 'Acaba bu mümkün mü?' diye düşünüyorsanız, <strong>ücretsiz ön görüşme</strong> için formu doldurun. 24 saat içinde size özel bir planla dönüş yapıyorum.</p>",
+  "Contact.Phone": "Telefon Numaram",  
+  "Contact.Call": "Ara",  
+  "Contact.PhoneNumber": "+90 543 747 69 16", 
+  "Contact.Email": "E-Posta Adresim",
+  "Contact.EmailAddress": "bilgi@serdarsevimli.tr",
+  "Contact.Btn": "E-Posta Gönder",
+  "Footer.Company": "Serdar Sevimli tarafından Angular ile oluşturuldu"
 }

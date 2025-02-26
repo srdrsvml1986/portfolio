@@ -5,30 +5,42 @@
         <h3 class="contact-pre-title big-subtitle">
           {{ "Contact.Pretitle" | translate }}
         </h3>
-        <!-- <h4 class="e-font contact-title big-title">
+        <h4 class="e-font contact-title big-title">
           {{ "Contact.Title" | translate }}
-        </h4> -->
+        </h4>
       </div>
-      <p data-aos="fade-up" data-aos-duration="1000">
-        {{ "Contact.Content" | translate }}
-      </p>
-      <div class="mt-5">
-        <a
-          (click)="
-            analyticsService.sendAnalyticEvent(
-              'click_send_mail',
-              'contact',
-              'email'
-            )
-          "
-          href="mailto:bilgi@serdarsevimli.tr"
-          target="_blank"
-          class="main-btn"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          {{ "Contact.Btn" | translate }}
-        </a>
+      <p data-aos="fade-up" data-aos-duration="1000" [innerHTML]="( 'Contact.Content' | translate )"></p>
+      
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info" data-aos="fade-up" data-aos-duration="1000">
+        <div class="contact-card">
+          <i class="fas fa-phone contact-icon"></i>
+          <div class="contact-details">
+            <h5>{{ "Contact.Phone" | translate }}</h5>
+            <p>{{ "Contact.PhoneNumber"| translate }}</p>
+            <a (click)="analyticsService.sendAnalyticEvent('click_call','contact','call')" 
+               href="tel:+905437476916" 
+               target="_blank" 
+               class="main-btn">
+              {{ "Contact.Call" | translate }}
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <i class="fas fa-envelope contact-icon"></i>
+          <div class="contact-details">
+            <h5>{{ "Contact.Email" | translate }}</h5>
+            <p>{{ "Contact.EmailAddress"| translate }}</p>
+            <a (click)="analyticsService.sendAnalyticEvent('click_send_mail','contact','email')" 
+               href='mailto:{{ "Contact.EmailAddress"| translate }}' 
+               target="_blank" 
+               class="main-btn">
+              {{ "Contact.Btn" | translate }}
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

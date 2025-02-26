@@ -2,22 +2,18 @@
     <div [@bannerTrigger] class="container">
         <div class="section-box-banner">
             <div class="content">
-                <div>
+                <!-- Hero başlık bölümü -->
+                <div class="hero-pretitle">
                     <h1>{{"Banner.Pretitle" | translate}}</h1>
                 </div>
-                <div class='banner-title'>
-                    <h2>{{"Banner.Title" | translate}}</h2>
-                    <h3>{{"Banner.Subtitle" | translate}}</h3>
+                <div class='banner-title animate__animated animate__fadeIn'>
+                    <h2 class="gradient-text">{{"Banner.Title" | translate}}</h2>
+                    <h3 class="typing-text">{{"Banner.Subtitle" | translate}}</h3>
                 </div>
-                <div class='banner-description'>
-                    <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
+                <div class='banner-description animate__animated animate__fadeInUp'>
+                    <p [innerHTML]='"Banner.Description" | translate' class="mt-4 lead"></p>
                 </div>
             </div>
-            <!-- <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:bilgi@serdarsevimli.tr" target="_black" class="main-btn">
-                    {{"Banner.ActionBtn" | translate}}
-                </a>
-            </div> -->
         </div>
     </div>
 </section>

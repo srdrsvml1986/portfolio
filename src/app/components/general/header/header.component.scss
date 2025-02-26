@@ -1,5 +1,19 @@
 @use "./../../../../variables.scss" as vars;
 
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle img {
+  width: auto;
+  height: 100%;
+  transform: scale(1.2);
+}
 // Tekrar eden stiller için mixin kullanalım
 @mixin transition {
   transition: all 0.3s ease;
@@ -45,7 +59,7 @@
     img {
       @include transition;
       &:hover {
-        transform: scale(1.1) rotate(-5deg);
+        transform: scale(1.1) rotate(-15deg);
       }
     }
   }

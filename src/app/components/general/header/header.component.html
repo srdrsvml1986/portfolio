@@ -1,7 +1,7 @@
 <nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0' [class.mobile-mode]="isMobileMode&&isMenuOpen">
     <div class="container">
-        <a class="navbar-brand text-light" routerLink="/">
-            <img src='assets/images/logo.png' width='350' alt="Logo" />
+        <a class="navbar-brand text-light circle" routerLink="/">
+            <img src='assets/images/logo.png' width='80' height='80' alt="Logo" />
         </a>
 
         <!-- Hamburger menü butonu ekliyoruz -->
@@ -19,9 +19,9 @@
             <li (click)='closeMenu()'>
                 <a (click)='scroll("jobs")'><span class='nav-number'></span> <span class="nav-text"> {{"Header.Item2" | translate}}</span></a>
             </li>
-            <li (click)='closeMenu()'>
+            <!-- <li (click)='closeMenu()'>
                 <a (click)='scroll("proyects")'><span class='nav-number'></span> <span class="nav-text"> {{"Header.Item3" | translate}}</span></a>
-            </li>
+            </li> -->
             <li (click)='closeMenu()'>
                 <a (click)='scroll("contact")'><span class='nav-number'></span> <span class="nav-text"> {{"Header.Item4" | translate}}</span></a>
             </li>

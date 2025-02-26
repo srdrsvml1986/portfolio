@@ -1,6 +1,8 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { trigger, query, stagger, animate, style, transition } from '@angular/animations'
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-footer',
@@ -21,6 +23,10 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
         ])
       ])
     ])
+  ],
+  imports: [
+    CommonModule,
+    TranslateModule,
   ]
 })
 export class FooterComponent implements OnInit {
@@ -30,6 +36,11 @@ export class FooterComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+  }
+
+  openGithubPortfolio(): void {
+    this.analyticsService.sendAnalyticEvent('click_github_portfolio', 'footer', 'portfolio');
+    window.open('https://github.com/srdrsvml1986/portfolio', '_blank');
   }
 
 }

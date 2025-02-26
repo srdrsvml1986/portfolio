@@ -7,17 +7,18 @@
   "Header.cvName": "en.pdf",
 
   "Banner.Pretitle": "Hello",
-  "Banner.Description": "I have <span class='underline'>10 years of experience</span> in developing systems, interfaces, bots, and technological solutions to make the web a better place. I take care to write and refactor clean, reusable, and scalable code with <span class='underline'>Angular</span>, <span class='underline'>Flutter</span>, and <span class='underline'>C#</span>, implementing best practices and development standards.",
+  "Banner.Description": "<p><p><br>I am an experienced software developer passionately committed to the transformative power of digital transformation and innovative technologies in shaping the business world. I design and develop modern, user-friendly web and mobile solutions to help small and medium-sized businesses create an impressive online presence. My goal is to help you stand out in competition by bringing technology together with your business goals.</p></p><br>I have <span class='underline'>10 years of experience</span> in developing systems, interfaces, bots, and technological solutions to make the web a better place. I take care to write and refactor clean, reusable, and scalable code with <span class='underline'>Angular</span>, <span class='underline'>Flutter</span>, and <span class='underline'>C#</span>, implementing good practices and development standards.",
   "Banner.ActionBtn": "Hello",
   "Banner.Title": "Serdar Sevimli",
-  "Banner.Subtitle": "Software Developer",
+  "Banner.Subtitle": "Software Developer & Digital Solutions Specialist",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
     "In my <span class='underline'>10 years of experience</span>, I've taken on many roles: <span class='underline'>System Analyst</span>, <span class='underline'>Backend Developer</span>, and <span class='underline'>Frontend Developer</span>. I love sharing my knowledge to create new things that help solve problems.",
-    "My abilities include making system improvements, optimizing sites, standardizing patterns, and proposing and implementing ideas that add value to the project I'm working on.",
+    "My skills include making system improvements, optimizing sites, standardizing patterns, and suggesting and implementing ideas that add value to the project I'm working on.",
     "I also write programs for personal use, hobby, or utility purposes.",
-    "Some of the technologies I've trained in and worked with include (but are not limited to):"
+    "Here are some of the technologies I've trained in and worked with (not limited to):",
+    "<div><p><strong>Areas of Expertise:</strong><br>🔹 <strong>Web Development:</strong> Dynamic, interactive, and accessible interfaces with HTML5, CSS3, Angular, and jQuery.<br>🔹 <strong>API & Back-End:</strong> Scalable, secure, and high-performance backend systems using RESTful Web APIs.<br>🔹 <strong>Mobile App Development:</strong> Native and cross-platform applications with Android, iOS, and Flutter (saving time and budget!).<br>🔹 <strong>SEO & Digital Marketing:</strong> Strategic SEO integration for top search engine rankings.<br>🔹 <strong>Project Management:</strong> Transparent communication, timely results, and customer-focused approach from start to delivery.</p><p><strong>Why Work With Me?</strong><br>I see technology not just as a tool, but as a lever that triggers your business growth. In every project, I focus on sustainable success by blending the latest trends with customized solutions. The open communication I establish with my clients forms the foundation for smooth project progress.</p><p><strong>Call for Collaboration:</strong><br>Looking for an innovative partner in your digital transformation journey? Whether you want to update your existing project or bring a new idea to life from scratch, we can make a difference together.</p></div>"
   ],
 
   "Experience.Title": "Experience",
@@ -39,8 +40,8 @@
       "Title": "Mobile Application Developer",
       "Date": "May 2020 - Present",
       "Description": [
-        "Programming new functionalities to existing employee management platform made with Flutter",
-        "Refactoring legacy code. Ensuring compatibility of every dependency with each update including regular Flutter updates"
+        "Programming new functions for existing employee management platform made with Flutter",
+        "Refactoring old code. Ensuring compatibility of every dependency with each update including regular Flutter updates"
       ]
     },
     {
@@ -48,8 +49,8 @@
       "Title": "System Analyst",
       "Date": "November 2015 - December 2020",
       "Description": [
-        "Programming new functionalities to existing employee management platform made with Angular",
-        "Refactoring legacy code. Ensuring compatibility of every dependency with each update including regular Angular updates"
+        "Programming new functions for existing employee management platform made with Angular",
+        "Refactoring old code. Ensuring compatibility of every dependency with each update including regular Angular updates"
       ]
     }    
   ],
@@ -59,7 +60,7 @@
   "FeatureProjects.Projects": [
     {
       "Title": "Gisselle",
-      "Description": "Internal management web application made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, covering sales, collection, and tracking departments, with various comprehensive and complex functionalities. Works with integrations with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>laravel jobs</span>, WordPress, Zadarma, LiveConnect, etc.",
+      "Description": "Internal management web application built with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, covering sales, collection, and tracking departments, with comprehensive and complex various functions. Works with integrations including <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>laravel jobs</span>, WordPress, Zadarma, LiveConnect, etc.",
       "imgs": [
         "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
         "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
@@ -71,7 +72,7 @@
     },
     {
       "Title": "Emelteciot",
-      "Description": "Monitoring application for data querying made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. Implemented <span class='underline'>chart.js</span> library.",
+      "Description": "Monitoring application for data querying built with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. Implemented <span class='underline'>chart.js</span> library.",
       "imgs": [
         "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
         "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
@@ -96,7 +97,7 @@
     },
     {
       "Title": "GlobalJobs",
-      "Description": "E-learning platform developed with WordPress. Fully customized design with plugins developed from scratch. Features custom payment module, virtual classroom, course tracking panel.",
+      "Description": "E-learning platform developed with WordPress. Fully customized design with plugins developed from scratch. Features customized payment module, virtual classroom, course tracking panel.",
       "imgs": [
         "assets/images/globaljobs/capture1.png",
         "assets/images/globaljobs/capture2.png",
@@ -109,7 +110,7 @@
     },
     {
       "Title": "GlobalJobs",
-      "Description": "E-commerce platform for technology products. Developed with WordPress and implemented shipping system for products. Features sales reporting with custom programming.",
+      "Description": "E-commerce platform for technology products. Developed with WordPress and shipping system implemented for products. Features sales reporting with custom programming.",
       "imgs": [
         "assets/images/mbelectronics/capture0.png",
         "assets/images/mbelectronics/capture1.png",
@@ -131,7 +132,7 @@
     },
     {
       "Title": "Tu Super Plan",
-      "Description": "Health plans quotation with advanced search engine. Plans are shown based on user's age, monthly income, and location. Includes <span class='underline'>live chat</span>, <span class='underline'>contact form</span>, <span class='underline'>notification system via WhatsApp and email</span>, <span class='underline'>authentication</span>, and <span class='underline'>information management through admin role</span>.",
+      "Description": "Health plans quote with advanced search engine. Plans are shown based on user's age, monthly income, and location. Includes <span class='underline'>live chat</span>, <span class='underline'>contact form</span>, <span class='underline'>notification system via WhatsApp and email</span>, <span class='underline'>authentication</span>, and <span class='underline'>information management through admin role</span>.",
       "imgs": [
         "assets/images/tusuperplan/tusuperplan1.png",
         "assets/images/tusuperplan/tusuperplan2.png",
@@ -143,7 +144,7 @@
     },
     {
       "Title": "Proyexiot",
-      "Description": "Data monitoring platform built from scratch for water wells, tugboats, and various facilities, including authentication module, <span class='underline'>configurable charts</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers</span>. Also includes logic for reactive forms for parameter configuration.",
+      "Description": "Data monitoring platform built from scratch for water wells, tugboats, and various facilities, including authentication module, <span class='underline'>configurable charts</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geographical location with openlayers</span>. Also includes logic for reactive forms for parameter configuration.",
       "imgs": [
         "assets/images/proyex/proyex1.png",
         "assets/images/proyex/proyex2.png",
@@ -182,7 +183,7 @@
     },
     {
       "Title": "Four Card Feature Section",
-      "Description": "Single page with minimalist design that lists 4 features in 4 cards. Uses entry animations with Angular animations.",
+      "Description": "Single page with minimalist design listing 4 features in 4 cards. Uses Angular animations for entry animations.",
       "ghLink": "https://github.com/srdrsvml1986/four-card-feature-section",
       "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
       "Technologies": ["Angular", "SASS", "CSS GRID"]
@@ -203,15 +204,21 @@
     },
     {
       "Title": "Profile Card",
-      "Description": "Simple page design showing a profile card containing basic information about a person.",
+      "Description": "Simple page design showing a profile card containing a person's basic information.",
       "ghLink": "https://github.com/srdrsvml1986/profile-card-component",
       "demoLink": "https://projects.andresjosehr.com/profile-card-component",
       "Technologies": ["Angular", "SASS", "GIT"]
     }
   ],
 
-  "Contact.Pretitle": "What's Next?",
-  "Contact.Title": "Say Hello!",
-  "Contact.Content": "I'd be happy to hear from you if you'd like to discuss new opportunities. Write to me, and I'll respond as soon as I see your message.",
-  "Contact.Btn": "Get In Touch"
+  "Contact.Pretitle": "",
+  "Contact.Title": "Hello Dear Customer",
+  "Contact.Content": "<hr><h3><strong>📩 Let's Turn Your Digital Dream into Reality!</strong></h3><p>Hello! I'm Serdar Sevimli. I'm here to help your business shine in the online world. Missing a website or mobile app? Or do you want to refresh your digital presence? I offer customized solutions by <strong>combining technology with your business strategy</strong>.</p><p><strong>How Can I Help?</strong><br>✅ <strong>Web & Mobile Application:</strong> User-friendly, fast, and SEO-compatible.<br>✅ <strong>Custom Software Solutions:</strong> APIs and systems that optimize your workflow.<br>✅ <strong>Digital Visibility:</strong> SEO strategies aimed at ranking high in search engines.<br>✅ <strong>Consulting:</strong> Let's determine the right technology for your project together.</p><p><strong>Why Trust Me?</strong><br>🔸 <strong>Measurable results</strong> with 10+ years of experience.<br>🔸 Your processes under control with transparent communication and <strong>project tracking board</strong>.<br>🔸 'I understand, I solve' approach: No more technical language complexity!</p><p><strong>Contact Now!</strong><br>If you have an idea or are wondering 'Is this possible?', fill out the form for a <strong>free initial consultation</strong>. I'll get back to you with a customized plan within 24 hours.</p>",
+  "Contact.Phone": "My Phone Number",  
+  "Contact.Call": "Call",  
+  "Contact.PhoneNumber": "+90 543 747 69 16", 
+  "Contact.Email": "My Email Address",
+  "Contact.EmailAddress": "info@serdarsevimli.tr",
+  "Contact.Btn": "Send Email",
+  "Footer.Company": "Created with Angular by Serdar Sevimli"
 }
