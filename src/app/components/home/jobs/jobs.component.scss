@@ -68,19 +68,18 @@
     }
 }
 
-.jobs{
+.jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 
-    max-width: 700px;
-    margin: auto;
+    .title-tab-content {
+        font-size: 24px;
+        margin-bottom: 10px;
+        transition: color 0.25s ease;
 
-    .title-tab-content{
-        color: v.$LightestSlate;
-        font-size: 22px;
-        font-weight: 500;
-        margin-bottom: 5px;
-
-        .company-tab-content{
-            color: v.$Green;
+        &:hover .company-tab-content {
+            color: lighten(v.$Green, 10%);
         }
     }
 
@@ -96,27 +95,37 @@
         margin-bottom: 30px;
     }
     
-    .job-description{
+    .job-description {
         position: relative;
-        padding-left: 30px;
         margin-bottom: 10px;
-        font-size: 18px;
-
+        padding-left: 20px;
+        font-size: 13px;
+        font-family: v.$CodeFont;
+        color: v.$Slate;
+        span{
+          padding-bottom: 5px;
+        }
+        
         &:before {
             content: '▹';
             position: absolute;
             left: 0;
             color: v.$Green;
+            font-size: 14px;
+            line-height: 12px;
+        }
+        
+        &:hover:before {
+            transform: translateX(5px);
         }
     }
 }
 
-
-
 @media (max-width: 768px){
     .jobs {
-        .job-description{
-            padding: 0px;
+        .job-description {
+            padding: 0 15px;
+            font-size: 16px;
         }
     }
     ::ng-deep .jobs-tabs{
