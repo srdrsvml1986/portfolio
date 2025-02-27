@@ -29,7 +29,7 @@
         -ms-flex-align: center;
         align-items: center;
         white-space: nowrap;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: 600;
         color: v.$LightestSlate;
         margin: auto;
@@ -86,7 +86,8 @@
         }
 
         .contact-title {
-            font-size: 40px;
+            font-size: 20px;
+            font-weight: bold;
         }
         
         .contact-pre-title {
@@ -95,7 +96,7 @@
         }
         
         p {
-            font-size: 16px;
+            font-size: 14px;
         }
     }
 }
@@ -120,9 +121,9 @@
   transition: transform 0.3s ease;
 }
 
-.contact-card:hover {
-  transform: translateY(-5px);
-}
+// .contact-card:hover {
+//   transform: translateY(-5px);
+// }
 
 .contact-icon {
   font-size: 2rem;
