@@ -3,7 +3,7 @@
 .contact{
     margin: 0 auto;
     max-width: 600px;
-    text-align: center;
+    text-align: left;
     position: relative;
     padding: 0 20px;
     //padding-bottom: 120px;
@@ -24,10 +24,10 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
+        -webkit-align-items: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
         white-space: nowrap;
         font-size: 20px;
         font-weight: 600;
@@ -55,11 +55,11 @@
         font-family: v.$CodeFont;
         font-weight: normal;
         margin-bottom: 20px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+        -webkit-box-pack: left;
+        -webkit-justify-content: left;
+        -ms-flex-pack: left;
+        justify-content: left;
+        text-align: left;
     }
 
     .section-box {

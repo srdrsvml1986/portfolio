@@ -1,8 +1,7 @@
-<section class="section banner">
-    <div [@bannerTrigger] class="container">
-        <div class="section-box-banner">
-            <div class="content">
-                <!-- Hero başlık bölümü -->
+<section class="section" id="banner">
+    <div class="container banner">
+        <div class="section-box">
+            <div class="banner-title mb-5" data-aos="fade-up">
                 <div class="hero-pretitle">
                     <h1>{{"Banner.Pretitle" | translate}}</h1>
                 </div>
@@ -10,8 +9,17 @@
                     <h3 class="gradient-text">{{"Banner.Title" | translate}}</h3>
                     <h4 class="typing-text">{{"Banner.Subtitle" | translate}}</h4>
                 </div>
-                <div class='banner-description animate__animated animate__fadeInUp'>
-                    <p [innerHTML]='"Banner.Description" | translate' class="mt-4 lead"></p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="banner-content" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="content-wrapper">
+                            <div class='banner-description animate__animated animate__fadeInUp'>
+                                <p [innerHTML]='"Banner.Description" | translate' class="mt-4 lead"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

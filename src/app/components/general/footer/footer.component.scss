@@ -39,6 +39,49 @@ footer{
         background-color: v.$Navy;
         position: relative;
         z-index: 101;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+            padding: 8px 20px;
+            
+            div {
+                color: v.$LightSlate;
+                font-size: 14px;
+                font-weight: 500;
+                transition: all 0.3s ease;
+            }
+
+            &::before, &::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 1px;
+                background-color: v.$Green;
+                transition: width 0.3s ease;
+            }
+
+            &::before {
+                left: 0;
+                top: 0;
+            }
+
+            &::after {
+                right: 0;
+                bottom: 0;
+            }
+
+            &:hover {
+                div {
+                    color: v.$Green;
+                }
+
+                &::before, &::after {
+                    width: 100%;
+                }
+            }
+        }
     }
 
     .footer-left-bar:after, .footer-right-bar:after{

@@ -1,66 +1,63 @@
 @use "./../../../../variables.scss" as v;
 
-.about{
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 
-    .about-description{
+    .about-description {
         margin-top: 30px;
-        max-width: 80%;
+        
+        .content-wrapper {
+            margin-bottom: 40px;
+        }
     }
 
-    .about-img-container{
-        width: 324px;
-        margin: auto;
+    .skills-container {
+        .skills-title {
+            font-size: 20px;
+            color: v.$LightestSlate;
+        }
 
-        &:after{
-            content: '';
-            border: 2px solid v.$Green;
-            z-index: 0;
-            display: block;
+        .skills-tabs {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-element {
             position: relative;
-            width: 394px;
-            height: 305px;
-            border-radius: 3px;
-            bottom: 290px;
-            left: 23px;
+            padding-left: 20px;
+            font-family: v.$CodeFont;
+            font-size: 13px;
+            color: v.$Slate;
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+            
+            &:before {
+                content: '▹';
+                position: absolute;
+                left: 0;
+                color: v.$Green;
+                font-size: 14px;
+                line-height: 12px;
+            }
 
-        }
-
-        img{
-            z-index: 2;
-            position: relative;
-        }
-    }
-
-    .skills-list{
-        display: grid;
-        grid-template-columns: repeat(2,minmax(140px,200px));
-        overflow: hidden;
-        padding: 0;
-        margin: 20px 0 0 0;
-        list-style: none;
-    }
-
-    .skill-element{
-        position: relative;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        font-size: 13px;
-        font-family: v.$CodeFont;
-        color: v.$Slate;
-        span{
-          padding-bottom: 5px;
-        }
-
-        &:before {
-            content: '▹';
-            position: absolute;
-            left: 0;
-            color: v.$Green;
-            font-size: 14px;
-            line-height: 12px;
+            &:hover {
+                color: v.$Green;
+                transform: translateX(5px);
+            }
         }
     }
+}
 
+@media (max-width: 768px) {
+    .about {
+        .skills-container {
+            .skills-tabs {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1300px){

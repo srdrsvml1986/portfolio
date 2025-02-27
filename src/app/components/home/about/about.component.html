@@ -1,23 +1,23 @@
-<section class="section about" id='about'>
-    <div class="container">
+<section class="section" id='about'>
+    <div class="container about">
         <div class="section-box">
-            <div class="about-title text-center mb-5" data-aos="fade-up">
+            <div class="about-title mb-5" data-aos="fade-up">
                 <h3 class="section-title">
                     <span class='n-section-title'></span> {{"AboutMe.Title" | translate}}
                 </h3>
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-12">
-                    <div class="about-description">
-                        <div class="content-wrapper" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-12">
+                    <div class="about-description" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="content-wrapper">
                             <p *ngFor='let text of "AboutMe.Paragraphs" | translate' [innerHTML]="text">
                             </p>
                         </div>
 
                         <div class="skills-container mt-5" data-aos="fade-up">
                             <h4 class="skills-title text-left mb-4">Yeteneklerim</h4>
-                            <div class="skills-grid">
+                            <div class="skills-tabs">
                                 <div class="skill-element" *ngFor="let skill of [
                                     'Angular',
                                     'HTML & (S)CSS',
@@ -28,7 +28,7 @@
                                     'Web Uygulamaları',
                                     'Mobil Uygulamalar',
                                     'Flutter'
-                                ]" data-aos="fade-up" data-aos-duration="1000">
+                                ]">
                                     <span class="skill-text">{{skill}}</span>
                                 </div>
                             </div>
